@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Change Calculator</title>
+    <link rel="stylesheet" type="css/text" href="default.css">
+</head>
+
+<body>
+    <div class="calcForm">
+        <h1>
+            Change Calculator
+        </h1>
+        <form id="calculator">
+            <button class="btn" type="button" onclick="calculateChange()">Calculate</button>
+            <label class="calcLabels" for="userInput">Please enter number of cents (0-99):</label>
+            <input class="calcInput" type="text" id="userCents" />
+            <label class="calcLabels" for="quarters">Quarters </label>
+            <input class="calcInput" type="text" id="quarters" />
+            <label class="calcLabels" for="dimes">Dimes </label>
+            <input class="calcInput" type="text" id="dimes" />
+            <label class="calcLabels" for="nickels">Nickels </label>
+            <input class="calcInput" type="text" id="nickels" />
+            <label class="calcLabels" for="pennies">Pennies</label>
+            <input class="calcInput" type="text" id="pennies" />
+        </form>
+    </div>
+    <script type="text/javascript" script src="calculateChange.js"></script>
+</body>
+
+</html>

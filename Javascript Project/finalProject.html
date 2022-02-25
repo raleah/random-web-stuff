@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        WEB 115 Final Project
+    </title>
+    <style>
+        body {
+            font-size: 12pt;
+            font-family: verdana;
+        }
+
+        div#theLeft {
+            clear: both;
+            width: 15%;
+            float: left;
+        }
+
+        div#theRight {
+            width: 83%;
+            float: right;
+            padding-bottom: 20px;
+            padding-right: 30px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <script type="text/javascript" src="projectJS.js"></script>
+    <h1 style="text-align:center">Build Your Resume</h1>
+
+    <form id="resumeInfo">
+
+        <label for="fullName">Name:</label>
+        <input type="text" id="fullname" placeholder="Please enter your full name"><br />
+
+        <p></p>
+        <label for="address">Address:</label>
+        <input type="text" id="address" placeholder="Please enter your full address"><br />
+
+        <p></p>
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" placeholder="Please enter your phone number"><br />
+
+        <p></p>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" placeholder="Please enter your email address"><br />
+
+        <p></p>
+        Personal Data:<br />
+        <textarea rows="5" cols="50" name="data" id="pdata"
+            placeholder="Please enter your personal data"></textarea><br />
+
+        <p></p>
+        Career Objective:<br />
+        <textarea rows="5" cols="50" name="obj" id="career"
+            placeholder="Please enter your career objective"></textarea><br />
+
+        <p></p>
+        Educational Background:<br />
+        <textarea rows="5" cols="50" name="edu" id="education"
+            placeholder="Please enter your educational background"></textarea><br />
+
+        <p></p>
+        <label for="entryDate">Entry Date:</label>
+        <input type="date" id="entry1" placeholder="entry date"><br />
+
+        <p></p>
+        <label for="exitDate">Exit Date:</label>
+        <input type="date" id="exit1" placeholder="exit date"><br />
+
+        <p></p>
+        Employment History:<br />
+        <textarea rows="10" cols="100" name="emp" id="exp1"
+            placeholder="Please enter your employment experience"></textarea><br />
+
+        <p></p>
+        <label for="entryDate">Entry Date:</label>
+        <input type="date" id="entry2" placeholder="entry date"><br />
+
+        <p></p>
+        <label for="exitDate">Exit Date:</label>
+        <input type="date" id="exit2" placeholder="exit date"><br />
+
+        <p></p>
+        Additional Employment History:<br />
+        <textarea rows="10" cols="100" name="emp" id="exp2"
+            placeholder="Please enter your employment experience"></textarea><br />
+
+        <p></p>
+        <label for="entryDate">Entry Date:</label>
+        <input type="date" id="entry3" placeholder="entry date"><br />
+
+        <p></p>
+        <label for="exitDate">Exit Date:</label>
+        <input type="date" id="exit3" placeholder="exit date"><br />
+
+        <p></p>
+        Additional Employment History:<br />
+        <textarea rows="10" cols="100" name="emp" id="exp3"
+            placeholder="Please enter your employment experience"></textarea><br />
+
+        <p></p>
+        <label for="entryDate">Entry Date:</label>
+        <input type="date" id="entry4" placeholder="entry date"><br />
+
+        <p></p>
+        <label for="exitDate">Exit Date:</label>
+        <input type="date" id="exit4" placeholder="exit date"><br />
+
+        <p></p>
+        Additional Employment History:<br />
+        <textarea rows="10" cols="100" name="emp" id="exp4"
+            placeholder="Please enter your employment experience"></textarea><br />
+
+        <p></p>
+        Business References:<br />
+        <textarea rows="5" cols="50" name="bus" id="ref"
+            placeholder="Please enter your professional references"></textarea><br />
+
+        <p></p>
+        <input type="button" value="Click Here to Create Your Resume" onclick="createResume()" />
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+/* css for index.html lesson06 
+Name: Rachel Hyman*/
+
+header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+body { 
+    width: 70%;
+    margin: 0 auto;
+    font-family: Tahoma;
+    background-color: #F9FAE3;
+}
+
+ul {
+    font-style: italic;
+}
+
